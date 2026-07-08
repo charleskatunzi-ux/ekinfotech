@@ -1,7 +1,7 @@
 spring:
-   batch:
-    jdbc:
-      initialize-schema: always
-  sql:
-    init:
-      mode: always
+ batch:
+  jdbc:
+   initialize-schema: always
+ sql:
+  init:
+   mode: always
