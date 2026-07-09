@@ -1,6 +1,18 @@
 spring:
+ threads:
+  virtual:
+   enabled: true
+ rabbitmq:
+  addresses: localhost
+  username: guest
+  password: guest
  datasource:
   url: jdbc:postgresql://localhost:5432/batch_db
   username: postgres
   password: root
+management:
+ endpoints:
+  web:
+   exposure:
+    include: "*"
  
