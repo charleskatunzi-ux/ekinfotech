@@ -8,7 +8,7 @@ spring:
   username: guest
   password: guest
  datasource:
-  url: jdbc:postgresql://localhost:5432/batch_db
+  url: jdbc:postgresql://localhost:5432/batch_metadata_db
   username: postgres
   password: root
   driver-class-name: org.postgresql.Driver
