@@ -19,7 +19,7 @@ management:
     include: "*"
 app:
  datasource:
-  url: jdbc:postgresql://localhost:5432/batch_db
+  jdbc-url: jdbc:postgresql://localhost:5432/batch_db
   username: postgres
   password: root
   driver-class-name: org.postgresql.Driver
