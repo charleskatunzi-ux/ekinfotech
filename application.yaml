@@ -8,7 +8,7 @@ spring:
   username: guest
   password: guest
  datasource:
-  url: jdbc:postgresql://localhost:5432/batch_metadata_db
+  url: jdbc:postgresql://localhost:5432/adoptions
   username: postgres
   password: root
   driver-class-name: org.postgresql.Driver
@@ -17,7 +17,5 @@ management:
   web:
    exposure:
     include: "*"
-app:
- datasource:
-  url: jdbc:postgresql://localhost:5432/adoptions
+
 
