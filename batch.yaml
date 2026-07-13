@@ -1,7 +1,7 @@
 spring:
  batch:
   datasource:
-   url: jdbc:postgresql://localhost:5432/batch_metadata_db
+   url: jdbc-url: postgresql://localhost:5432/batch_metadata_db
    username: postgres
    password: root
    driver-class-name: org.postgresql.Driver
